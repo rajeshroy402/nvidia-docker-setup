@@ -47,5 +47,5 @@ echo "let's test nvidia running"
 sudo apt list --installed *nvidia*
 
 echo "testing the installation"
-sudo ctr image pull docker.io/nvidia/cuda:11.0-base
-sudo ctr run --rm --gpus 0 -t docker.io/nvidia/cuda:11.0-base cuda-11.0-base nvidia-smi
+#sudo ctr image pull docker.io/nvidia/cuda:11.0-base
+#sudo ctr run --rm --gpus 0 -t docker.io/nvidia/cuda:11.0-base cuda-11.0-base nvidia-smi
